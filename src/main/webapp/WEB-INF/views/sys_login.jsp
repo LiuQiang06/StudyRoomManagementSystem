@@ -19,7 +19,7 @@
         <div class="login_box" style="width:500px;">
 
             <div class="login_form" style="padding:15px;">
-                <div class="login_title">
+                <div class="login_title" style="color: #0C0C0C">
                     自习室管理系统-系统登录
                 </div>
                 <div>
@@ -39,7 +39,7 @@
                         <p>图片验证码</p>
                         <input id="imgCode" name="imgCode" type="text" placeholder="验证码"
                                style="width:300px;margin-top:5px;height:30px;float:left">
-                        <img id="codeImg1" name="codeImg" style="width:80px;height:30px;float:left;margin-top:5px;"
+                        <img id="codeImg1" name="codeImg" style="width:80px;height:30px;float:right;margin-top:6px;"
                              alt="点击更换" title="点击更换"/>
                     </div>
 
@@ -71,7 +71,7 @@
 
 
                     <div class="form_btn" style="width:400px;">
-                        <button type="button" onclick="submitForm()" id="submitBtn">系统登录</button>
+                        <button type="button" onclick="submitForm()" id="submitBtn" style="background: #0d6ba1 ">系统登录</button>
                     </div>
 
                     <div class="form_reg_btn" style="width:400px;margin-top:20px">

@@ -63,7 +63,7 @@
 
 
                     <div class="form_btn" style="width:400px;">
-                        <button type="button" onclick="submitForm()" id="submitBtn">用户-注册</button>
+                        <button type="button" onclick="submitForm()" id="submitBtn" style="background: #0d6ba1">用户-注册</button>
                     </div>
 
                     <div class="form_reg_btn" style="width:400px;margin-top:20px">

@@ -7,7 +7,7 @@ import org.springframework.context.event.EventListener;
 
 import java.io.IOException;
 
-//@Configuration
+@Configuration
 public class AutoRunWeb {
 
     // 这里是注入你yml配置的端口号
@@ -27,18 +27,18 @@ public class AutoRunWeb {
         System.out.println("应用已经准备就绪 ... 启动浏览器");
 
         // 需要启动的url（appPort是端口号， "/main"是接口）
-        //http://localhost:8080/study_room_sys/commonapi/sys_login
+        //http://localhost:port/study_room_sys/commonapi/sys_login
         String url = "http://localhost:" + port + contextPath + "/commonapi/sys_login";
-        System.out.println("初始化地址url：" + url);
+        System.out.println("项目地址url：" + url);
 
         //调用默认浏览器，打开初始化地址url
-        Runtime runtime = Runtime.getRuntime();
+        /*Runtime runtime = Runtime.getRuntime();
         try {
             // rundll32 url.dll,FileProtocolHandler是Windows系统下用来打开默认浏览器并访问指定URL的命令
             runtime.exec("rundll32 url.dll,FileProtocolHandler " + url);
         } catch (IOException e) {
             e.printStackTrace();
-        }
+        }*/
     }
 
 }

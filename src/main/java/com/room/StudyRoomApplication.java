@@ -8,7 +8,6 @@ import org.springframework.boot.builder.SpringApplicationBuilder;
 import org.springframework.boot.web.support.SpringBootServletInitializer;
 import org.springframework.scheduling.annotation.EnableScheduling;
 
-//请求路径:http://localhost:8080/study_room_sys/commonapi/sys_login
 @SpringBootApplication(exclude = {DataSourceAutoConfiguration.class // 关闭mybatis的自动配置
         , MybatisAutoConfiguration.class})
 @EnableScheduling

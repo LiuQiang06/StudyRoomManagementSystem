@@ -30,10 +30,10 @@
                 <ul class="navRight">
 
 
-                    <li class="M noLeft"><a href="JavaScript:void(0);">您好，${login.name}</a></li>
-                    <li class="M noLeft"><a href="JavaScript:void(0);" onclick="alterPassword()">修改密码</a></li>
+                    <li class="M noLeft"><a href="JavaScript:void(0);" style="color: #ffffff">您好，${login.name}</a></li>
+                    <li class="M noLeft"><a href="JavaScript:void(0);" onclick="alterPassword()" style="color: #ffffff">修改密码</a></li>
 
-                    <li class="noRight"><a href="${pageContext.request.contextPath}/commonapi/sys_logout">退出</a></li>
+                    <li class="noRight"><a href="${pageContext.request.contextPath}/commonapi/sys_logout" style="color: #ffffff">退出</a></li>
                 </ul>
             </div>
         </div>
