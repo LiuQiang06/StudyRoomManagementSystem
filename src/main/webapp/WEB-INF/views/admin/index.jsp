@@ -42,9 +42,9 @@
     <div id="dcLeft">
         <div id="menu">
 
-            <ul>
+            <%--<ul>
                 <li style="background-color:#dddddd"><a href="javascript:void(0)"><em>用户管理</em></a></li>
-            </ul>
+            </ul>--%>
             <ul>
 
                 <li>
@@ -62,22 +62,22 @@
                 </li>
 
             </ul>
-            <ul>
+            <%--<ul>
                 <li style="background-color:#dddddd"><a href="javascript:void(0)"><em>桌子管理 </em></a></li>
-            </ul>
+            </ul>--%>
             <ul>
 
                 <li>
 
                     <a data-name="桌子管理" data-href="${pageContext.request.contextPath}/admin/desk_info"
-                       href="javascript:void(0)" onclick="goPage(this)" style="text-align:center"><em>桌子管理 </em></a>
+                       href="javascript:void(0)" onclick="goPage(this)" style="text-align:center"><em>自习室管理</em></a>
 
                 </li>
 
             </ul>
-            <ul>
+            <%--<ul>
                 <li style="background-color:#dddddd"><a href="javascript:void(0)"><em>订单管理 </em></a></li>
-            </ul>
+            </ul>--%>
             <ul>
 
                 <li>
@@ -88,9 +88,9 @@
                 </li>
 
             </ul>
-            <ul>
+            <%--<ul>
                 <li style="background-color:#dddddd"><a href="javascript:void(0)"><em>系统设置 </em></a></li>
-            </ul>
+            </ul>--%>
             <ul>
 
                 <li>
@@ -101,9 +101,9 @@
                 </li>
 
             </ul>
-            <ul>
+            <%--<ul>
                 <li style="background-color:#dddddd"><a href="javascript:void(0)"><em>统计分析 </em></a></li>
-            </ul>
+            </ul>--%>
             <ul>
 
                 <li>

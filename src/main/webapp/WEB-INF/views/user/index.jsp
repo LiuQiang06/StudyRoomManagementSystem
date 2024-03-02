@@ -42,9 +42,9 @@
     <div id="dcLeft">
         <div id="menu">
 
-            <ul>
+            <%--<ul>
                 <li style="background-color:#dddddd"><a href="javascript:void(0)"><em>个人信息 </em></a></li>
-            </ul>
+            </ul>--%>
             <ul>
 
                 <li>
@@ -62,9 +62,9 @@
                 </li>
 
             </ul>
-            <ul>
+            <%--<ul>
                 <li style="background-color:#dddddd"><a href="javascript:void(0)"><em>店铺信息 </em></a></li>
-            </ul>
+            </ul>--%>
             <ul>
 
                 <li>
@@ -75,22 +75,22 @@
                 </li>
 
             </ul>
-            <ul>
+            <%--<ul>
                 <li style="background-color:#dddddd"><a href="javascript:void(0)"><em>桌子预约 </em></a></li>
-            </ul>
+            </ul>--%>
             <ul>
 
                 <li>
 
-                    <a data-name="桌子预约" data-href="${pageContext.request.contextPath}/user/desk_info"
-                       href="javascript:void(0)" onclick="goPage(this)" style="text-align:center"><em>桌子预约 </em></a>
+                    <a data-name="自习室预约" data-href="${pageContext.request.contextPath}/user/desk_info"
+                       href="javascript:void(0)" onclick="goPage(this)" style="text-align:center"><em>自习室预约 </em></a>
 
                 </li>
 
             </ul>
-            <ul>
+            <%--<ul>
                 <li style="background-color:#dddddd"><a href="javascript:void(0)"><em>订单 </em></a></li>
-            </ul>
+            </ul>--%>
             <ul>
 
                 <li>
@@ -101,9 +101,9 @@
                 </li>
 
             </ul>
-            <ul>
+            <%--<ul>
                 <li style="background-color:#dddddd"><a href="javascript:void(0)"><em>统计分析 </em></a></li>
-            </ul>
+            </ul>--%>
             <ul>
 
                 <li>

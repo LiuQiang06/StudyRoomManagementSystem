@@ -32,13 +32,13 @@ public class AutoRunWeb {
         System.out.println("项目地址url：" + url);
 
         //调用默认浏览器，打开初始化地址url
-        /*Runtime runtime = Runtime.getRuntime();
+        Runtime runtime = Runtime.getRuntime();
         try {
             // rundll32 url.dll,FileProtocolHandler是Windows系统下用来打开默认浏览器并访问指定URL的命令
             runtime.exec("rundll32 url.dll,FileProtocolHandler " + url);
         } catch (IOException e) {
             e.printStackTrace();
-        }*/
+        }
     }
 
 }

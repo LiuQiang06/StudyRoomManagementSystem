@@ -6,7 +6,7 @@
 <head>
 <c:set var="uri" value="${pageContext.request.contextPath}" />
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <title>桌子</title>
+    <title>自习室</title>
     <meta name="Copyright" content="" />
     <link href="${pageContext.request.contextPath}/static/admin/css/public.css" rel="stylesheet" type="text/css">
         <link href="${pageContext.request.contextPath}/static/admin/css/modal_css.css" rel="stylesheet" type="text/css">
@@ -47,13 +47,13 @@
                 <div id="imgModal"></div>
                 
                 <div class="mainBox" style="height:auto!important;height:550px;min-height:550px;">
-                <h3>桌子</h3>
+                <h3>自习室</h3>
                 <div>
                 
                 <div style="display:inline">
                 <p style="display:inline-block;margin-top:30px">
                 <span style="margin-left:20px;">桌号</span>
-                <input type="text" class="inpMain" style="color:black;width:250px;"  placeholder="请输入桌号进行查询" id="deskNo" />
+                <input type="text" class="inpMain" style="color:black;width:250px;"  placeholder="请输入自习室名称进行查询" id="deskNo" />
                 </p>
                 </div>
                 

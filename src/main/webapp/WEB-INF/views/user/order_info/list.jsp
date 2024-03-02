@@ -197,7 +197,10 @@
                     var createTimeVal = setNullToEmpty(rows[i].orderInfo.createTime);
                     html += '<td>' + createTimeVal + '</td>';
                     html += '<td>';
-                    if (rows[i].orderInfo.orderStatus == '1') {
+                    /*if (rows[i].orderInfo.orderStatus == '1') {
+                        html += '<a href="javascript:void(0)" onclick="td(this)" data-id="' + rows[i].orderInfo.id + '" act-type="1" class="btnPayment btnStyle">退订</a>';
+                    }*/
+                    if (rows[i].orderInfo.orderStatus) {
                         html += '<a href="javascript:void(0)" onclick="td(this)" data-id="' + rows[i].orderInfo.id + '" act-type="1" class="btnPayment btnStyle">退订</a>';
                     }
                     html += '</td>';

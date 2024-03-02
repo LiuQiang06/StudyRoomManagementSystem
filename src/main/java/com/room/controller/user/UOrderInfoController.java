@@ -1,34 +1,27 @@
 package com.room.controller.user;
 
 import com.room.controller.LoginModel;
-
-import com.room.mapper.*;
-
-import com.room.pojo.*;
-
-import com.room.service.*;
-
-import com.room.util.*;
-
+import com.room.mapper.DeskInfoMapper;
+import com.room.mapper.OrderInfoMapper;
+import com.room.mapper.SysSettingInfoMapper;
+import com.room.mapper.UserInfoMapper;
+import com.room.pojo.OrderInfo;
+import com.room.pojo.SysSettingInfo;
+import com.room.pojo.SysSettingInfoExample;
+import com.room.pojo.UserInfo;
+import com.room.service.OrderInfoService;
+import com.room.util.CommonVal;
+import com.room.util.DataListUtils;
 import org.springframework.beans.factory.annotation.Autowired;
-
 import org.springframework.stereotype.Controller;
-
 import org.springframework.ui.ModelMap;
-
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 
-import java.text.SimpleDateFormat;
-
-import java.util.ArrayList;
-import java.util.Date;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
-
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
+import java.text.SimpleDateFormat;
+import java.util.*;
 
 
 @Controller
@@ -171,14 +164,14 @@ public class UOrderInfoController {
             hour = model.getStartTime() + "";
         }
         String startTime = model.getOrderDate() + " " + hour + ":00:00";
-        int hours = CommonUtils.getHours(now, startTime);
+        /*int hours = CommonUtils.getHours(now, startTime);
         if (hours < 10) {
             rs.put("code", 0);
             rs.put("msg",
                     "距离开始时间小于10小时，不允许退订");
 
             return rs;
-        }
+        }*/
 
         model.setOrderStatus(2);
         orderInfoMapper.updateByPrimaryKey(model);

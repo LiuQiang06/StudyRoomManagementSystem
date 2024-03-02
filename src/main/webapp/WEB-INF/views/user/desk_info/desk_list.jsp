@@ -50,7 +50,7 @@
 <div id="imgModal"></div>
 
 <div class="mainBox" style="height:auto!important;height:550px;min-height:550px;">
-    <h3>桌子</h3>
+    <h3>自习室</h3>
     <div style="display:block-inline">
 
         <c:forEach var="item" items="${dl}">
