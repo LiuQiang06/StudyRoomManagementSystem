@@ -44,7 +44,7 @@
             <body style="background-color:white">
             
             <div class="mainBox" style="height:auto!important;height:550px;min-height:550px;">
-            <h3>店铺详情</h3>
+            <h3>自习室详情</h3>
             
             <div id="list">
             <div>
@@ -56,11 +56,11 @@
             </thead>
             <tbody >
             <tr>
-            <th width="10%">店铺名</th>
+            <th width="10%">自习室名</th>
             <th width="90%"  >${setting.shopName}</th>
                 </tr>
                 <tr>
-                <th width="10%">店铺简介</th>
+                <th width="10%">自习室简介</th>
                 <th width="90%"  >${setting.shopIntro}</th>
                     </tr>
                     <tr>

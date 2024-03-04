@@ -70,7 +70,7 @@
                 <li>
 
                     <a data-name="店铺信息" data-href="${pageContext.request.contextPath}/user/sys_setting_info"
-                       href="javascript:void(0)" onclick="goPage(this)" style="text-align:center"><em>店铺信息 </em></a>
+                       href="javascript:void(0)" onclick="goPage(this)" style="text-align:center"><em>自习室信息 </em></a>
 
                 </li>
 
